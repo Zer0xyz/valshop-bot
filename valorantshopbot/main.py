@@ -2,7 +2,7 @@ from typing import Final
 import os
 from dotenv import load_dotenv
 from discord import Intents,Client, Message
-from responses import get_response
+from bot.responses import get_response
 
 # load token from env
 load_dotenv()
